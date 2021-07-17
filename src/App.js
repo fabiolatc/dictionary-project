@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
-      <button className="btn btn-primary">Button</button>
+     
+      <Dictionary/>
     </div>
   );
 }
