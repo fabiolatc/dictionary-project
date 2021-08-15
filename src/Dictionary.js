@@ -25,7 +25,7 @@ function handleResponse(response) {
 
     function saveKeyword(event) {
         updateKeyword(event.target.value)
-        console.log(keyword)
+  
     }
 
 return (
