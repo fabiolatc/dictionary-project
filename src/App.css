@@ -2,6 +2,7 @@ body {
   background:#E1E8F4;
 }
 .App {
+
 font-family: Arial, Helvetica, sans-serif;
   
   margin: 60px 0 100px;;
@@ -58,3 +59,18 @@ margin: 0 auto;}
 
 
 a {color: #7b7ee3}
+
+.meaning {color: #808080;}
+
+
+.Results {color: #808080;}
+
+ul {list-style: none;
+display: inline-block;
+margin-right: 10px;
+padding: 0;
+line-height: 1px;}
+
+
+li {color: #7b7ee3 ;
+font-size: 12px;}
