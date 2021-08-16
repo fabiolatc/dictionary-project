@@ -9,7 +9,8 @@ if (props.phonetics) { return(
 
    
 <div className="phonetics">
-<a href={props.phonetics.audio} target="_blank">Listen</a><p>{props.phonetics.text}</p>
+<a href={props.phonetics.audio} target="_blank" className="phonetics-audio">Listen</a> 
+<p className="phonetics-text">  [{props.phonetics.text}]</p>
 
 </div>
 )

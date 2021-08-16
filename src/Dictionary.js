@@ -1,6 +1,8 @@
 import React, {useState} from "react"
 import './Dictionary.css';
 import Results from "./Results"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import axios from 'axios';
 
 export default function Diciontary() 
@@ -31,8 +33,10 @@ function handleResponse(response) {
 return (
     
 <div className="Dictionary">
+    <p className="lookup">Which word do you want to look up?</p>
 <form onSubmit={search}>
-<input type="search" onChange={saveKeyword}></input>
+<input type="search" onChange={saveKeyword} className="search-bar"  ></input>
+<button type="submit" className="search-button" ><FontAwesomeIcon icon={faSearch} color="#7b83ad" /></button>
 
 </form>
 

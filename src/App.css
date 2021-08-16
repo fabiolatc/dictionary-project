@@ -1,8 +1,12 @@
+body {
+  background:#E1E8F4;
+}
 .App {
-
-  margin:20px auto;
-  max-width: 800px;
-  text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+  
+  margin: 60px 0 100px;;
+padding: 25px;
+  text-align: left; 
 }
 
 .App-logo {
@@ -39,3 +43,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.word {font-size: 75px;
+text-transform: capitalize;
+font: weight 400px;
+color:#7b83ad;
+}
+
+.phonetics-text {display: inline;}
+
+.Dictionary {max-width: 600px;
+margin: 0 auto;}
+
+
+a {color: #7b7ee3}
